@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.example.administrator.animationview.WordView
+    android:id="@+id/wordview"
+    android:layout_width="match_parent"
+    android:layout_height="450dp">
+</com.example.administrator.animationview.WordView>
+  <SeekBar
+      android:layout_below="@+id/wordview"
+      android:id="@+id/seekbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  </RelativeLayout>

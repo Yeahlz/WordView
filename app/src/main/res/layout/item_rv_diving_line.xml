@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/item_play_here"
+    android:layout_marginStart="8dp"
+    android:layout_centerVertical="true"
+    android:src="@drawable/play"
+    android:layout_width="20dp"
+    android:layout_height="20dp" />
+    <View
+        android:id="@+id/divide_line"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/item_play_here"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_marginEnd="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
