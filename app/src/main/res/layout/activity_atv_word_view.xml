@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.administrator.animationview.AutoPullRecyclerView
+        android:id="@+id/auto_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/divide_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_play_here"
+        android:layout_marginStart="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/play"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <View
+        android:id="@+id/divide_line1"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/item_play_here"
+        android:layout_centerVertical="true"
+        android:background="#E6E6FA"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:id="@+id/time1"
+        android:layout_marginEnd="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
